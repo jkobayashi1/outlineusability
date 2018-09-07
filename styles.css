@@ -1,0 +1,79 @@
+body {
+    background:coral;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1060px;
+    min-width: 400px;
+    min-height: 500px;
+    margin: 5px auto;
+    background: #FFFFFF;
+    overflow: auto;
+}
+
+h1{  font-family: fantasy;
+    color: coral;
+    padding: 1em;}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: serif;
+    color: black;
+    padding: 1em;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+
+p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    float: left;
+    width: 55%;
+}
+
+#brat {
+    float: left;
+    width: 45%;
+    margin: 0 auto;
+}
+
+main,
+aside {
+    clear: both;
+    padding: 10px;
+}
+
+footer,
+header {
+    text-align: center;
+}
+
+
+img {
+    float: right;
+    padding: 15px;
+    margin: 1em auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
